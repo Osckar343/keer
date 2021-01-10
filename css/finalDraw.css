@@ -1,0 +1,40 @@
+#gift div{
+  height: 100vh;
+}
+
+#gift div:nth-child(1){
+  background: url("../img/backgrounds/GiftPattern.jpg");
+  background-repeat: repeat;
+  background-size: 150px 150px;
+}
+
+#gift div:nth-child(2){
+  background: url("../img/backgrounds/brownPaper.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  opacity: 93%;
+}
+
+#gift div:nth-child(3){
+  height: 140vh;
+}
+
+
+#gift #myVideo{
+  z-index: -100;
+  position: fixed;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+
+/*Version para escritorio*/
+@media (min-width:1024px){
+
+  #gift div:nth-child(1){
+    background-size: 250px 250px;
+  }
+}

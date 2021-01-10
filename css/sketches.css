@@ -1,0 +1,55 @@
+#sketches {
+  background-image: url("../img/backgrounds/BackgroundPaper.jpg");
+  color: black;
+  text-align: center;
+}
+
+#sketches .content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#sketches h1 { /*Título*/
+  padding-top:  80px;
+  font-size: 70px;
+  font-weight: lighter;
+  font-family: "DrawingGuides";
+}
+
+#sketches h4 {
+    margin: 10px;
+    color: gray;
+}
+
+.oneOfHerSketch {
+  margin: 70px;
+}
+
+.oneOfHerSketch img{
+  width: 260px;
+  height: 260px;
+}
+
+@media (min-width:480px) {
+  .oneOfHerSketch {
+    width: 50%;
+  }
+}
+
+
+@media (min-width:1024px) {
+    .oneOfHerSketch img{
+      width: 370px;
+      height: 370px;
+    }
+}
+
+
+
+@media (min-width:1024px) {
+  .oneOfHerSketch {
+    width: auto;
+  }
+
+}

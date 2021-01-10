@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "DrawingGuides";
+    src: url(../fonts/DrawingGuides.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "NexaLight";
+  src: url(../fonts/NexaLight.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "NexaBold";
+    src: url(../fonts/NexaBold.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "daCasa";
+    src: url(../fonts/dacasa.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Minecraft";
+    src: url(../fonts/Minecraft.ttf) format("truetype");
+}

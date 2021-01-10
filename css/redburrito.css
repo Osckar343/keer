@@ -1,0 +1,49 @@
+#redburrito {
+  background-image: url("../img/backgrounds/next.jpg");
+  text-align: center;
+}
+
+#redburrito .content{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+#redburrito h1 {
+  /*Título*/
+  padding-top: 80px;
+  font-size: 70px;
+  font-weight: lighter;
+  font-family: "NexaBold";
+  color: #434343;
+}
+
+#redburrito .content p{
+  width: 95vw;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-bottom: 5px;
+  font-family: 'NexaBold', sans-serif;
+}
+
+.oneOfYourPreferences {
+  margin-left:  0px;
+  margin-right: 0px;
+}
+
+.oneOfYourPreferences img{
+  width: 250px;
+  height: 250px;
+}
+
+@media (min-width:1024px) {
+  .oneOfYourPreferences {
+    margin-left:  100px;
+    margin-right: 100px;
+  }
+    .oneOfYourPreferences img{
+      width: 500px;
+      height: 370px;
+    }
+}

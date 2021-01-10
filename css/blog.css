@@ -1,0 +1,31 @@
+#blog h3, h4 {
+  text-align: center;
+}
+
+#blog .contenedor {
+  display: flex; /*Esto hace que el contenido esté en una linea*/
+  justify-content: center; /*Centra el contenido al centro*/
+  flex-wrap: wrap; /*Si el tamaño de la pantalla no abarca todo el contenido, entonces lo baja*/
+}
+
+#blog h3 {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+
+#blog article {
+  margin: 15px;
+  transition: transform 0.3s ease;
+  cursor: pointer; /*Cuando pasa el mouse, el mouse cambia a una manita*/
+}
+
+#blog img {
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+}
+
+#blog article:hover{
+  transform: translateY(-10px);
+}

@@ -1,0 +1,341 @@
+.history {
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  text-align: center;
+}
+
+.image{
+    background-size: cover;
+}
+
+/*--------Fondo y color de texto------------*/
+#history_part1{
+    color: #2C2E2E;
+    background-image: url("../img/backgrounds/paperboard-purple.jpg");
+}
+
+#history_part2{
+    color: white;
+    background-image: url("../img/backgrounds/paperboard-red.jpg");
+}
+
+#history_part3{
+    color: #2C2E2E;
+    background-image: url("../img/backgrounds/paperboard-orange.jpg");
+}
+
+#history_part4{
+    color: white;
+    background-image: url("../img/backgrounds/paperboard-blue.jpg");
+}
+
+#history_part5{
+    color: #2C2E2E;
+    background-image: url("../img/backgrounds/paperboard-yellow.jpg");
+}
+
+#history_part6{
+    color: white;
+    background-image: url("../img/backgrounds/paperboard-purpledark.jpg");
+}
+
+#history_part7{
+    color: #2C2E2E;
+    background-image: url("../img/backgrounds/paperboard-lightpink.jpg");
+}
+
+#history_part8{
+  color: white;
+  background-image: url("../img/backgrounds/BoxDimensionBackground.png");
+}
+
+#history_part9{
+  color:  #2C2E2E;
+  background-image: url("../img/backgrounds/paperboard-white.jpg");
+}
+
+#history_part10{
+  color:  white;
+  background-size: auto;
+  background-repeat: repeat;
+  background-image: url("../img/backgrounds/dirt.jpg");
+}
+
+#history_part11{
+  color:  white;
+  background-size: 100px 100px;
+  background-repeat: repeat;
+  background-image: url("../img/backgrounds/stone.png");
+}
+
+#history_part12{
+  color:  white;
+  background-repeat: repeat;
+  background-image: url("../img/backgrounds/sunset.jpg");
+}
+
+#history_part13{
+  color:  white;
+  background-repeat: repeat;
+  background-image: url("../img/backgrounds/robloxTexture.png");
+}
+
+/*------Animaciones de giro------*/
+      /*----1----*/
+#history_part1 img{
+  transform: rotate(-3deg);
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+}
+#history_part1 img:hover{
+   transform: rotate(-7deg);
+  -webkit-transform: rotate(-10deg);
+  -moz-transform: rotate(-10deg);
+  -ms-transform: rotate(-10deg);
+}
+      /*----2----*/
+#history_part2 img{
+  transform: rotate(2deg);
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+}
+#history_part2 img:hover{
+  transform: rotate(4deg);
+  -webkit-transform: rotate(4deg);
+  -moz-transform: rotate(4deg);
+  -ms-transform: rotate(4deg);
+}
+    /*----3----*/
+#history_part3 img{
+  transform: rotate(2deg);
+  -webkit-transition: all 0.6s ease;
+  -moz-transition: all 0.6s ease;
+  -ms-transition: all 0.6s ease;
+}
+#history_part3 img:hover{
+  transform: rotate(4deg);
+  -webkit-transform: rotate(-4deg);
+  -moz-transform: rotate(-4deg);
+  -ms-transform: rotate(-4deg);
+}
+/*----4----*/
+#history_part4 img{
+transform: rotate(-5deg);
+-webkit-transition: all 0.6s ease;
+-moz-transition: all 0.6s ease;
+-ms-transition: all 0.6s ease;
+}
+#history_part4 img:hover{
+transform: rotate(1deg);
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-ms-transform: rotate(0deg);
+}
+/*----5----*/
+#history_part5 img{
+transform: rotate(1deg);
+-webkit-transition: all 0.6s ease;
+-moz-transition: all 0.6s ease;
+-ms-transition: all 0.6s ease;
+}
+#history_part5 img:hover{
+transform: rotate(1deg);
+-webkit-transform: rotate(0deg);
+-moz-transform: rotate(0deg);
+-ms-transform: rotate(0deg);
+}
+/*----6----*/
+#history_part6 img{
+transform: rotate(-1deg);
+-webkit-transition: all 0.6s ease;
+-moz-transition: all 0.6s ease;
+-ms-transition: all 0.6s ease;
+}
+#history_part6 img:hover{
+transform: rotate(5deg);
+-webkit-transform: rotate(5deg);
+-moz-transform: rotate(5deg);
+-ms-transform: rotate(5deg);
+}
+/*---7 is SelfControl... so pic mustn't move XD---*/
+/*----8 IS CRAZY!!----*/
+#history_part8 img{
+transform: rotate(-4deg);
+-webkit-transition: all 2s ease;
+-moz-transition: all 2s ease;
+-ms-transition: all 2s ease;
+}
+#history_part8 img:hover{
+transform: rotate(-1000deg);
+-webkit-transform: rotate(-1000deg);
+-moz-transform: rotate(-1000deg);
+-ms-transform: rotate(-1000deg);
+}
+/*----9-----*/
+#history_part9 img{
+transform: rotate(-1deg);
+-webkit-transition: all 0.6s ease;
+-moz-transition: all 0.6s ease;
+-ms-transition: all 0.6s ease;
+}
+#history_part9 img:hover{
+transform: rotate(-5deg);
+-webkit-transform: rotate(-5deg);
+-moz-transform: rotate(-5deg);
+-ms-transform: rotate(-5deg);
+}
+
+/*----10-----*/
+#history_part10 img{
+transform: rotate(4deg);
+-webkit-transition: all 0.6s ease;
+-moz-transition: all 0.6s ease;
+-ms-transition: all 0.6s ease;
+}
+#history_part10 img:hover{
+transform: rotate(-2deg);
+-webkit-transform: rotate(-2deg);
+-moz-transform: rotate(-2deg);
+-ms-transform: rotate(-2deg);
+}
+
+/*----11-----*/
+#history_part11 img{
+transform: rotate(-5deg);
+-webkit-transition: all 0.6s ease;
+-moz-transition: all 0.6s ease;
+-ms-transition: all 0.6s ease;
+}
+#history_part11 img:hover{
+transform: rotate(5deg);
+-webkit-transform: rotate(5deg);
+-moz-transform: rotate(5deg);
+-ms-transform: rotate(5deg);
+}
+
+/*-----12-----*/
+.image{
+  width: 250px;
+  height: 150px;
+  border: 10px white solid;
+  background-size: cover;
+}
+
+.image {
+transform: rotate3d(0,0,0,0deg);
+background: url('../img/content/history/12_sunset.png');
+
+-webkit-transition: all 0.6s ease;
+-moz-transition: all 0.6s ease;
+-ms-transition: all 0.6s ease;
+}
+
+.image:hover{
+transform: rotate3d(0.1,1,0,180deg);
+background: url('../img/content/history/12_sunset2.jpg');
+background-size: auto 100%;
+-webkit-transform: rotate3d(0.1,1,0,180deg);
+-moz-transform: rotate3d(0.1,1,0,180deg);
+-ms-transform: rotate3d(0.1,1,0,180deg);
+}
+
+/*----13-----*/
+#history_part13 img{
+transform: scale(1);
+-webkit-transition: all 0.6s ease;
+-moz-transition: all 0.6s ease;
+-ms-transition: all 0.6s ease;
+}
+#history_part13 img:hover{
+transform: scale(1.5);
+-webkit-transform: scale(1.5);
+-moz-transform: scale(1.5);
+-ms-transform: scale(1.5);
+}
+
+
+
+.history .content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.history h1 { /*Título*/
+  padding-top:  80px;
+  padding-bottom: 80px;
+  font-size: 70px;
+  font-family: "NexaBold";
+}
+
+.history h2{
+  font-family: 'NexaBold', sans-serif;
+}
+
+.historyContent p{
+  font-family: 'NexaLight', sans-serif;
+  line-height: 30px;
+  text-align: justify;
+  letter-spacing: 2px;
+  text-shadow: gray 1px 1px;
+  max-width: 75ch;
+}
+
+.Minecraft p{
+  font-family: 'Minecraft', sans-serif;
+  text-align: justify;
+  text-shadow: black 2px 2px;
+}
+
+.titleMinecraft{
+  font-size: 30px;
+}
+
+.historyContent {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+  padding-bottom: 80px;
+}
+
+.historyContent img{
+  width: 250px;
+  height: 150px;
+  border: 10px white solid;
+}
+
+@media (min-width:50px) {
+  .image{
+    background-size: cover;
+  }
+}
+
+@media (min-width:480px) {
+  .historyContent img , .image{
+    width: 350px;
+    height: 200px;
+    border: 20px white solid;
+    background-size: cover;
+  }
+
+  .historyContent {
+    margin: 40px;
+    width: auto;
+  }
+
+@media (min-width:1024px) {
+    .historyContent img , .image{
+      width: 500px;
+      height: 350px;
+      border: 15px white solid;
+      background-size: cover;
+    }
+
+    .historyContent {
+      width: auto;
+    }
+}

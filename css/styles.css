@@ -1,0 +1,56 @@
+@import url(fonts.css);
+@import url(cover-page.css);
+@import url(history.css);
+@import url(chat.css);
+@import url(personal_messages.css);
+@import url(sketches.css);
+@import url(redburrito.css);
+@import url(finalDraw.css);
+@import url(personalVoice.css);
+
+/*Reseteo de estilos*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+
+.contenedor {
+  width: 98%;
+  margin: auto;
+}
+
+section {
+  width: 100%;
+  padding: 0;
+}
+
+#finalMusic{
+  display: none;
+}
+
+
+/*Version para escritorio*/
+@media (min-width:1024px){
+  .contenedor {
+    width: 1000px; /*A partir de que llegue a 1024px, el width máximo será de 1000px*/
+  }
+}
+
+/*Version para escritorio*/
+@media (min-width:768px){
+  .sociales {
+    width: auto;
+  }
+
+}

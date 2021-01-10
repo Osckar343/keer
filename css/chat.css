@@ -1,0 +1,98 @@
+#chat{
+  background-color: white;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+#chat .content{
+  justify-content: center;
+  display: grid;
+}
+
+#chat .ballon_Content{
+  max-width: 800px;
+  width: 95vw;
+  display: flex;
+  align-items:flex-end;
+}
+
+#chat .ballon{
+  max-width: 220px;
+  width: auto;
+  height: auto;
+
+  margin: 2px;
+
+  font-size: 14px;
+  background: linear-gradient(180deg, pink,#E3BBB3,pink,#A08DF7,#76DBFE);
+  background-attachment: fixed;
+  border-radius: 20px;
+}
+
+svg{
+  margin: 5px;
+  color: red;
+  width: 50px;
+  height: 50px;
+}
+
+path{
+  fill: #ed4956;
+}
+
+#chat .ballon_Content.left .ballon{
+  background: #efefef;
+}
+
+#chat .right{
+  justify-content: flex-end;
+}
+
+#chat .left{
+  justify-content: flex-start;
+}
+
+#chat .picProfile{
+  height: 25px;
+  width: 25px;
+  margin: 3px;
+  border-radius: 100%;
+  background-image: url("../img/content/chat/picProfile.jpg");
+
+}
+
+#chat .ballon p{
+  text-align: left;
+  letter-spacing: 0.5pt;
+  line-height: 130%;
+  margin: 15px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+#chat .left .start{
+  border-bottom-left-radius: 2px;
+}
+
+#chat .left .middle{
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+#chat .left .end{
+  border-top-left-radius: 3px;
+}
+
+
+#chat .right .start{
+  border-bottom-right-radius: 3px;
+}
+
+#chat .right .middle{
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+#chat .right .end{
+  border-top-right-radius: 3px;
+}
